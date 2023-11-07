@@ -4,48 +4,47 @@ Analyzing the Craigslist Vehicle dataset is a comprehensive task, and the depth 
 
 ### Data Exploration and Preparation:
 
-    Data Loading: Load the dataset into your preferred data analysis environment (e.g., Python using Pandas).
+Data Loading: Load the dataset into your preferred data analysis environment (e.g., Python using Pandas).
 
-    Data Overview: Start by examining the first few rows of the dataset to get a sense of its structure.
+Data Overview: Start by examining the first few rows of the dataset to get a sense of its structure.
 
-    ## Data Cleaning:
-        Handle missing values in the dataset. You can fill missing values in numerical columns with the median and in categorical columns with the mode.
+## Data Cleaning:
+Handle missing values in the dataset. You can fill missing values in numerical columns with the median and in categorical columns with the mode.
         Remove duplicates if they exist.
         Remove irrelevant columns if necessary.
 
-    Data Type Adjustment:
+Data Type Adjustment:
         Convert the 'posting_date' column to a datetime data type to facilitate time-series analysis.
 
 ###Data Exploration:
 
-    Summary Statistics: Calculate summary statistics for numerical columns (e.g., mean, median, standard deviation) to get an overall understanding of the data.
+Summary Statistics: Calculate summary statistics for numerical columns (e.g., mean, median, standard deviation) to get an overall understanding of the data.
 
-    Visualizations:
-        Create various visualizations to understand the data. Some options include:
-            Histograms and box plots for numerical columns to analyze distributions and outliers.
-            Bar plots for categorical columns to understand the distribution of categories.
-            Time-series plots for the 'posting_date' column to explore temporal patterns.
+Visualizations:
+Create various visualizations to understand the data. Some options include:
+Histograms and box plots for numerical columns to analyze distributions and outliers.
+Bar plots for categorical columns to understand the distribution of categories.
+ime-series plots for the 'posting_date' column to explore temporal patterns.
             Scatter plots for numerical variables to identify potential relationships.
             Geographic plots if the dataset contains location data (e.g., 'region' or 'lat' and 'long').
-
-    Temporal Analysis:
+Temporal Analysis:
         Explore temporal patterns by analyzing trends and seasonality in the 'posting_date' column. You can use rolling averages or decomposition techniques to visualize these patterns.
 
-    Geospatial Analysis:
+Geospatial Analysis:
         If location data is available, you can perform geospatial analysis to understand how listings vary by region.
 
 ###Specific Analyses:
 
-    Price Analysis:
+  Price Analysis:
         Analyze price distributions, calculate average prices by category, region, or time, and identify outliers.
 
-    Category Analysis:
+ Category Analysis:
         Explore trends in different vehicle categories (e.g., cars, trucks, motorcycles) and identify popular makes and models.
 
-    Supply and Demand Analysis:
+  Supply and Demand Analysis:
         Investigate fluctuations in the number of listings over time, by region, or by vehicle type.
 
-    Feature Engineering:
+ Feature Engineering:
         Create new features that might be useful for your analysis, such as age of vehicles, price per year, or mileage per year.
 
 ###Time-Series Modeling (Optional):
